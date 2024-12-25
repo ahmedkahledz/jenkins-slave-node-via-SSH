@@ -29,7 +29,7 @@ For more details about the image, refer to its [Docker Hub page](https://hub.doc
 Generate an SSH key pair for secure communication between the Jenkins master and the slave node. Run the following command:
 
 ```bash
-ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
+ssh-keygen 
 ```
 
 This creates a private key (`id_rsa`) and a public key (`id_rsa.pub`) in the `.ssh` directory of your home folder.
